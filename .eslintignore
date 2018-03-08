@@ -1,0 +1,10 @@
+build/*.js
+config/*.js
+node_modules/*.js
+main/data/*.js
+main/helper/*.js
+main/scaffolder/*.js
+main/services/*.js
+main/utils/*.js
+main/*.js
+

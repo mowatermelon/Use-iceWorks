@@ -1,0 +1,1 @@
+const{findShellOrDefault:e}=require("./lookup"),{launchShell:r}=require("./launch"),t=require("../../exception"),a=require("./shared"),l=require("../settings");module.exports={shared:a,open:async a=>{const n=l.get("terminal")||null;try{const l=await e(n);await r(l,a)}catch(e){t.catch(e)}}};

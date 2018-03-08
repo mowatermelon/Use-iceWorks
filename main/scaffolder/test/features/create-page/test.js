@@ -1,0 +1,1 @@
+const r=require("rimraf"),e=require("fs"),i=require("path"),n=require("mkdirp"),s=require("../../.."),u=i.join(__dirname,"tmp");r.sync(u),n.sync(u),module.exports=(async()=>{r.sync(u)});

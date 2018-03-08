@@ -1,0 +1,1 @@
+const{findEditorOrDefault:e}=require("./lookup"),{launchExternalEditor:r}=require("./launch"),t=require("../../exception"),a=require("../settings"),i=require("./shared");module.exports={shared:i,open:async i=>{const n=a.get("editor")||null;try{const a=await e(n);await r(i,a)}catch(e){t.catch(e)}}};

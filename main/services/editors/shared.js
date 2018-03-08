@@ -1,0 +1,1 @@
+module.exports={ExternalEditor:{VisualStudioCode:"Visual Studio Code",SublimeText:"Sublime Text 3",Atom:"Atom",WebStorm:"WebStorm"},ExternalEditorError:class extends Error{constructor(t,e={}){super(t),this.metadata=e}}};

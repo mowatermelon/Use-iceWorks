@@ -1,0 +1,183 @@
+[
+  {
+    "name": "ice-design-cms",
+    "title": "Ice Design CMS",
+    "snapshot": "https://img.alicdn.com/tfs/TB13MoicntYBeNjy1XdXXXXyVXa-2840-1596.png",
+    "npm": "@icedesign/scaffold-cms",
+    "description": "该模板内置了丰富的区块，主要适用于类 CMS 管理系统，使用时需要根据需求进行删除和添加",
+    "version": "0.1.10",
+    "homepage": "https://alibaba.github.io/ice/scaffold-preview/ice-design-cms.html",
+    "layouts": [
+      {
+        "source": "@icedesign/header-footer-layout",
+        "alias": "HeaderFooterLayout",
+        "title": "顶栏-底栏布局"
+      },
+      {
+        "source": "@icedesign/header-aside-footer-layout",
+        "alias": "HeaderAsideFooterLayout",
+        "title": "顶栏-侧栏-底栏-布局"
+      },
+      {
+        "source": "@icedesign/header-aside-footer-responsive-layout",
+        "alias": "HeaderAsideFooterResponsiveLayout",
+        "title": "顶栏-侧栏-底栏-响应式布局"
+      },
+      {
+        "source": "@icedesign/blank-layout",
+        "alias": "BlankLayout",
+        "title": "空白布局"
+      }
+    ],
+    "dependencies": {
+      "@antv/data-set": "^0.8.5",
+      "@icedesign/base": "^0.1.0",
+      "@icedesign/container": "^0.1.0",
+      "@icedesign/form-binder": "^0.1.4",
+      "@icedesign/icon": "^0.1.1",
+      "@icedesign/img": "^0.1.0",
+      "@icedesign/layout": "^0.1.0",
+      "@icedesign/menu": "^0.1.0",
+      "@icedesign/skin": "^0.1.0",
+      "axios": "^0.17.1",
+      "bizcharts": "3.1.0",
+      "classnames": "^2.2.5",
+      "foundation-symbol": "^0.1.0",
+      "immutable": "^3.8.2",
+      "is-hotkey": "^0.1.1",
+      "prop-types": "^15.5.8",
+      "react-document-title": "^2.0.3",
+      "react-router": "^3.2.0",
+      "slate": "^0.32.5",
+      "slate-plain-serializer": "^0.5.6",
+      "slate-react": "^0.11.6"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.0.3",
+      "eslint": "^4.13.1",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-plugin-babel": "^4.1.1",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-react": "^7.5.1",
+      "ice-scripts": "^1.0.2"
+    },
+    "createdTime": "2018-02-25 23:27",
+    "publishTime": "2018-03-07 11:13",
+    "keywords": []
+  },
+  {
+    "name": "ice-design-lite",
+    "title": "Ice Design Lite",
+    "snapshot": "https://img.alicdn.com/tfs/TB1E8RHb21TBuNjy0FjXXajyXXa-2838-1596.png",
+    "npm": "@icedesign/scaffold-lite",
+    "description": "该模板适用于从 0 到 1 开始搭建项目，内置四套布局，以及基础的页面，路由和菜单展示",
+    "version": "0.1.37",
+    "homepage": "https://alibaba.github.io/ice/scaffold-preview/ice-design-lite.html",
+    "layouts": [
+      {
+        "source": "@icedesign/header-footer-layout",
+        "alias": "HeaderFooterLayout",
+        "title": "顶栏-底栏布局"
+      },
+      {
+        "source": "@icedesign/header-aside-footer-layout",
+        "alias": "HeaderAsideFooterLayout",
+        "title": "顶栏-侧栏-底栏-布局"
+      },
+      {
+        "source": "@icedesign/header-aside-footer-responsive-layout",
+        "alias": "HeaderAsideFooterResponsiveLayout",
+        "title": "顶栏-侧栏-底栏-响应式布局"
+      },
+      {
+        "source": "@icedesign/blank-layout",
+        "alias": "BlankLayout",
+        "title": "空白布局"
+      }
+    ],
+    "dependencies": {
+      "@icedesign/base": "^0.1.0",
+      "@icedesign/skin": "^0.1.0",
+      "bizcharts": "latest",
+      "prop-types": "^15.5.8",
+      "react-router": "^3.2.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.0.3",
+      "eslint": "^4.13.1",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-plugin-babel": "^4.1.1",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-react": "^7.5.1",
+      "ice-scripts": "^1.0.2"
+    },
+    "createdTime": "2018-02-24 12:38",
+    "publishTime": "2018-03-06 11:44",
+    "keywords": []
+  },
+  {
+    "name": "ice-design-pro",
+    "title": "Ice Design Pro",
+    "snapshot": "https://img.alicdn.com/tfs/TB1khvyb_tYBeNjy1XdXXXXyVXa-2838-1596.png",
+    "npm": "@icedesign/scaffold-pro",
+    "description": "该模板内置了丰富的区块，主要用于展示现有区块的分类以及区块组合的效果，使用时需要根据需求进行删除和添加",
+    "version": "0.1.36",
+    "homepage": "https://alibaba.github.io/ice/scaffold-preview/ice-design-pro.html",
+    "layouts": [
+      {
+        "source": "@icedesign/header-footer-layout",
+        "alias": "HeaderFooterLayout",
+        "title": "顶栏-底栏布局"
+      },
+      {
+        "source": "@icedesign/header-aside-footer-layout",
+        "alias": "HeaderAsideFooterLayout",
+        "title": "顶栏-侧栏-底栏-布局"
+      },
+      {
+        "source": "@icedesign/header-aside-footer-responsive-layout",
+        "alias": "HeaderAsideFooterResponsiveLayout",
+        "title": "顶栏-侧栏-底栏-响应式布局"
+      },
+      {
+        "source": "@icedesign/blank-layout",
+        "alias": "BlankLayout",
+        "title": "空白布局"
+      }
+    ],
+    "dependencies": {
+      "@antv/data-set": "^0.8.5",
+      "@icedesign/base": "^0.1.0",
+      "@icedesign/container": "^0.1.2",
+      "@icedesign/data-binder": "^0.1.1",
+      "@icedesign/ellipsis": "^0.1.1",
+      "@icedesign/form-binder": "^0.1.2",
+      "@icedesign/img": "^0.1.1",
+      "@icedesign/label": "^0.1.1",
+      "@icedesign/layout": "^0.1.1",
+      "@icedesign/skin": "^0.1.0",
+      "@icedesign/styled-menu": "^0.1.1",
+      "axios": "^0.17.1",
+      "bizcharts": "latest",
+      "classnames": "^2.2.5",
+      "prop-types": "^15.5.8",
+      "react-document-title": "^2.0.3",
+      "react-router": "^3.2.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.0.3",
+      "eslint": "^4.13.1",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-plugin-babel": "^4.1.1",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-react": "^7.5.1",
+      "ice-scripts": "^1.0.2"
+    },
+    "createdTime": "2018-02-24 12:38",
+    "publishTime": "2018-03-07 11:13",
+    "keywords": []
+  }
+]

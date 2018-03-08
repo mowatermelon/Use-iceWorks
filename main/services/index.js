@@ -1,0 +1,26 @@
+const e = require("./editors"),
+    r = require("./shells"),
+    i = require("./folder"),
+    s = require("./settings"),
+    o = require("./npm"),
+    t = require("./worker"),
+    a = require("../scaffolder"),
+    u = require("../data"),
+    l = require("./storage"),
+    q = require("./interaction"),
+    d = require("../logger"),
+    n = require("../shared");
+module.exports = {
+    editors: e,
+    folder: i,
+    materialData: u,
+    npm: o,
+    scaffolder: a,
+    settings: s,
+    shells: r,
+    storage: l,
+    worker: t,
+    interaction: q,
+    log: d,
+    shared: n
+};
