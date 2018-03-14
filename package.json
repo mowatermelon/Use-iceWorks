@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
-    "ice-scripts": "^0.1.14"
+    "ice-scripts": "beta"
   },
   "scripts": {
     "start": "ice dev",
@@ -53,5 +53,5 @@
     "title": "Ice Design Pro",
     "snapshot": "https://img.alicdn.com/tfs/TB1L0kraTtYBeNjy1XdXXXXyVXa-2836-1594.png"
   },
-  "title": "mo_melon"
+  "title": "melon_pro"
 }
