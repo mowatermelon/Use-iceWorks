@@ -16,11 +16,11 @@
   "main": "./main/index.js",
   "scripts": {
     "start": "electron ./main/index.js",
-    "package:linux32": "electron-packager ./ Iceworks --platform=linux --arch=ia32 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
-    "package:linux64": "electron-packager ./ Iceworks --platform=linux --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
-    "package:mac": "electron-packager ./ Iceworks --platform=darwin --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
-    "package:win32": "electron-packager ./ Iceworks --platform=win32 --arch=ia32 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
-    "package:win64": "electron-packager ./ Iceworks --platform=win32 --out=./dist --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png"
+    "package:linux32": "electron-packager ./ Iceworks --platform=linux --arch=ia32 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/favicon.ico",
+    "package:linux64": "electron-packager ./ Iceworks --platform=linux --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/favicon.ico",
+    "package:mac": "electron-packager ./ Iceworks --platform=darwin --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/favicon.ico",
+    "package:win32": "electron-packager ./ Iceworks --platform=win32 --arch=ia32 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/favicon.ico",
+    "package:win64": "electron-packager ./ Iceworks --platform=win32 --out=./dist --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/favicon.ico"
   },
   "dependencies": {
     "electron": "~1.7.8",
