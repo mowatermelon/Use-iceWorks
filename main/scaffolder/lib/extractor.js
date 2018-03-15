@@ -1,1 +1,1 @@
-exports.extractScaffording = function() {}, exports.extractLayout = function() {}, exports.extractBlock = function() {}, exports.extractBlocks = function() {};
+exports.extractScaffording=function(){},exports.extractLayout=function(){},exports.extractBlock=function(){},exports.extractBlocks=function(){};
