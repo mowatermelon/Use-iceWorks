@@ -3,7 +3,7 @@
   "productName": "Iceworks",
   "private": true,
   "description": "ICE Desktop Application.",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "author": {
     "name": "Alibaba Group Holding Limited",
     "email": "ice-admin@alibaba-inc.com",
@@ -14,15 +14,26 @@
     "url": "https://github.com/alibaba/ice"
   },
   "main": "./main/index.js",
+  "scripts": {
+    "start": "electron ./main/index.js",
+    "package:linux32": "electron-packager ./ Iceworks --platform=linux --arch=ia32 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
+    "package:linux64": "electron-packager ./ Iceworks --platform=linux --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
+    "package:mac": "electron-packager ./ Iceworks --platform=darwin --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
+    "package:win32": "electron-packager ./ Iceworks --platform=win32 --arch=ia32 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png",
+    "package:win64": "electron-packager ./ Iceworks --platform=win32 --out=./dist --arch=x64 ~/Desktop/Iceworks --version 0.30.2 --overwrite --icon=./static/touchbar/logo.png"
+  },
   "dependencies": {
+    "electron": "~1.7.8",
+    "@babel/generator": "^7.0.0-beta.40",
+    "@babel/types": "^7.0.0-beta.40",
     "app-path": "^2.2.0",
     "app-root-path": "^2.0.1",
     "axios": "^0.17.1",
+    "babylon": "^6.18.0",
     "co": "^4.6.0",
     "debug": "^3.1.0",
     "detect-port": "^1.2.2",
     "ejs": "^2.5.7",
-    "electron": "^1.8.3",
     "electron-is": "^2.4.0",
     "electron-log": "^2.2.13",
     "electron-settings": "^3.1.4",
