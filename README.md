@@ -7,3 +7,4 @@
 - pro模版项目文件，存储在pro分支
 - cms模版项目文件，存储在cms分支
 - Analytical模版项目文件，存储在Analytical分支
+- desktop项目文件，存储在desktop分支
