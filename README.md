@@ -37,6 +37,7 @@ npm run package:mac
 
 ![project](screenshots/project.png)
 ![project_1](screenshots/project_1.png)
+![project_2](screenshots/project_2.png)
 ![template](screenshots/template.png)
 ![setting](screenshots/setting.png)
 
