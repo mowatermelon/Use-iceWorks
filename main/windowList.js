@@ -69,7 +69,7 @@ exports.createHomeWindow = function(t) {
 	var n = (e, n) => {
 		n != t.webContents.getURL() && (e.preventDefault(), o.openExternal(n))
 	};
-	return t.webContents.on("will-navigate", n), t.webContents.on("new-window", n), t.setMenu(null), t.loadURL(path.resolve('renderer/updater')), t
+	return t.webContents.on("will-navigate", n), t.webContents.on("new-window", n), t.setMenu(null), t.loadURL(path.resolve('renderer/updater.html')), t
 }), exports.openAboutWindow = (() => {
 	const t = new e({
 		width: 280,
@@ -87,5 +87,5 @@ exports.createHomeWindow = function(t) {
 			backgroundThrottling: !1
 		}
 	});
-	t.setMenu(null), t.loadURL(path.resolve('renderer/about'))
+	t.setMenu(null), t.loadURL(path.resolve('renderer/about.html'))
 }), exports.createTouchBar = c;
