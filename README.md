@@ -1,4 +1,4 @@
-# ice-scaffold-analytical
+# ice-scaffold-analysis
 
 > 使用文档
 
@@ -17,4 +17,4 @@
 * 组件: `src/components`
 
 效果图:
-![screenshot](https://img.alicdn.com/tfs/TB11lPLdDtYBeNjy1XdXXXXyVXa-2840-1596.png)
+![screenshot](https://img.alicdn.com/tfs/TB1_Xf8m_tYBeNjy1XdXXXXyVXa-1920-1080.png)
