@@ -1,1 +1,1 @@
-const e=require("./Store");module.exports={recordStorage:new e("record"),projectsStorage:new e("projects"),workspaceStorage:new e("workspace")};
+const e=require("./Store");module.exports={statStorage:new e("stat"),recordStorage:new e("record"),projectsStorage:new e("projects"),workspaceStorage:new e("workspace")};

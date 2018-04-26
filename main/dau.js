@@ -1,0 +1,1 @@
+const{statStorage:e}=require("./services/storage"),r=require("./logger");module.exports={record:function(){const t=(new Date).toDateString();e.get()!==t&&(r.debug("dav record"),e.set(t),r.report("app",{action:"dau"}))}};
