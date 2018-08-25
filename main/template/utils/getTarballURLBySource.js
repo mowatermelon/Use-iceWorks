@@ -1,1 +1,1 @@
-const r=require("request"),e=require("../../config");module.exports=function(t={}){return new Promise((n,i)=>{let o="";"npm"==t.type&&(o=`${e.registry}/${t.npm}/${t.version}`),""==o?i(new Error("\u65e0\u6cd5\u83b7\u53d6 tarball \u4e0b\u8f7d\u5730\u5740")):r({url:o,json:!0},(r,e,t)=>{!r&&t&&t.dist&&t.dist.tarball?n(t.dist.tarball):i(r||new Error(JSON.stringify(e.body)))})})};
+const e=require("../../utils/npmRequest");module.exports=function(r={}){return new Promise((t,n)=>{let s=r.version;e({name:r.npm,version:s,registry:r.registry}).then(e=>{t(e.dist.tarball)}).catch(n)})};

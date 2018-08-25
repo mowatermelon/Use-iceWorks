@@ -1,0 +1,1 @@
+const e=require("request");module.exports={isAlibaba:()=>new Promise(o=>{e({url:"http://img.daily.taobaocdn.net/tps/TB12WD8XEw7LKJjyzdKXXaShXXa-2-2.png",timeout:300}).on("response",function(e){200===e.statusCode?o(!0):o(!1)}).on("error",()=>{o(!1)})})};

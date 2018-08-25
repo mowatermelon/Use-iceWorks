@@ -1,10 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title></title>
-  <link href="index.css" rel="stylesheet"></head>
-  <body>
-  </body>
-  <script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="index.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Iceworks</title>
+  <style>
+    .iceworks-loading {
+      position: fixed;
+      text-align: center;
+      z-index: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #svg-loading-outer {
+      animation: outer 7s linear infinite;
+    }
+
+    #svg-loading-inner {
+      animation: inner 3s linear infinite;
+    }
+
+    @keyframes outer {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes inner {
+      0%,
+      100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.3;
+      }
+    }
+  </style>
+<link href="0.css" rel="stylesheet"><link href="index.css" rel="stylesheet"></head>
+
+<body>
+  <script>
+    window.app_ready = new Date();
+  </script>
+  <div id="iceworks-loading">
+    <div class="iceworks-loading">
+      <svg id="svg-loading-outer" width="45px" height="50px" viewBox="0 0 91 100">
+        <path d="M0,55.5167989 L15.2263624,64.135514 L15.1092366,15.0700935 L3.37467138,21.9456424 C1.28634921,23.1689304 0,25.4300582 0,27.8766342 L0,55.5167989 Z"
+          id="Fill-1" fill="#4AC8FF">
+        </path>
+        <path d="M17.8031314,30.1401869 L60.3198204,7.26123012 L48.4339179,0.851989175 C46.3275203,-0.283996392 43.7318698,-0.283996392 41.6249168,0.851989175 L17.8031314,13.6984817 L17.8031314,30.1401869 Z"
+          id="Fill-3" fill="#1B73FF"></path>
+        <path d="M47.670227,17.8955015 L90.1869159,41.1214953 L90.1869159,28.1221382 C90.1869159,25.8232571 88.8862875,23.6996387 86.7747839,22.5499357 L62.9471837,9.57943925 L47.670227,17.8955015 Z"
+          id="Fill-5" fill="#4AC8FF"></path>
+        <path d="M42.5166889,82.3326057 L15.2543931,67.4600038 L0,59.1121495 L0,72.0650285 C0,74.3649154 1.29870735,76.490473 3.40653661,77.6404164 L26.604214,90.8742892 L42.5166889,82.3326057 Z"
+          id="Fill-7" fill="#1B73FF"></path>
+        <path d="M71.3296517,69.8598131 L58.2975629,76.8775066 L58.3059054,76.8915119 L28.8129627,92.7724863 L40.6531871,99.1480108 C42.7627259,100.283996 45.3622471,100.283996 47.4723421,99.1480108 L71.3296517,86.3015183 L71.3296517,69.8598131 Z"
+          id="Fill-9" fill="#4AC8FF"></path>
+        <path d="M90.06979,44.7274907 L74.9605535,36.5875895 L74.6091759,85.1797698 L86.6951186,78.2797349 C88.7834408,77.0549759 90.06979,74.7911291 90.06979,72.3416112 L90.06979,44.7274907 Z"
+          id="Fill-11" fill="#1B73FF"></path>
+      </svg>
+    </div>
+    <div class="iceworks-loading">
+      <svg id="svg-loading-inner" width="45px" height="50px" viewBox="0 0 91 100">
+        <path d="M34.0017766,41.4257283 L43.54345,35.9797863 C44.6318648,35.3587628 45.972607,35.3587628 47.0610218,35.9797863 L56.6026952,41.4257283 C57.69111,42.0467518 58.3620585,43.1951886 58.3620585,44.4372355 L58.3620585,55.3291196 C58.3620585,56.5711665 57.69111,57.7196033 56.6026952,58.3406268 L47.0610218,63.7865688 C45.972607,64.4075923 44.6318648,64.4075923 43.54345,63.7865688 L34.0017766,58.3406268 C32.9133618,57.7196033 32.2429907,56.5711665 32.2429907,55.3291196 L32.2429907,44.4372355 C32.2429907,43.1951886 32.9133618,42.0467518 34.0017766,41.4257283"
+          id="Fill-25" fill="#4AC8FF">
+      </svg>
+    </div>
+  </div>
+<script type="text/javascript" src="commons.js"></script><script type="text/javascript" src="react.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="xterm.js"></script><script type="text/javascript" src="index.js"></script></body>
+
 </html>

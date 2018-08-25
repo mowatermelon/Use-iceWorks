@@ -1,6 +1,1 @@
-const e = require("electron-is"), {
-	resolve: r
-} = require("app-root-path");
-exports.isDev = e.dev(), exports.isProd = e.production(), exports.isMac = e.osx(), exports.isWin = e.windows(), exports.isLinux = e.linux();
-const t = e.dev() ? "http://localhost:7001" : `file: //${r("renderer")}`;
-exports.rendererHost=t,exports.windowURL=((e,r="")=>`${t}/${e}.html${r}`),exports.registries=[{name:"npm",value:"https://registry.npmjs.org",label:"https://registry.npmjs.org"},{name:"cnpm",value:"https://registry.npm.taobao.org",label:"https://registry.npm.taobao.org"}];
+const e=require("electron-is"),{resolve:r}=require("app-root-path"),t=require("address"),s=require("./env");exports.env=s,exports.isDev=e.dev(),exports.isProd=e.production(),exports.isMac=e.osx(),exports.isWin=e.windows(),exports.isLinux=e.linux(),exports.defToken=e.dev()?"f87bf958ad0ecb310b86b1536746b5209799902b1f556850f1a29f26a2375f28":"72d7d45ac4495e9fb0047a96579a9af886e5c869f8ae148b68957c543d49ada1",exports.defEnv=e.dev()?"daily":"prod";const o=e.dev()?`http://${t.ip()}:7001`:`file://${r("renderer")}`;exports.rendererHost=o,exports.windowURL=((e,r="")=>`${o}/${e}.html${r}`);const p=[{name:"npm",value:"https://registry.npmjs.com",label:"npm - https://registry.npmjs.com"},{name:"cnpm",value:"https://registry.npm.taobao.org",label:"cnpm - https://registry.npm.taobao.org"},{name:"tnpm",value:"http://registry.npm.alibaba-inc.com",label:"tnpm - http://registry.npm.alibaba-inc.com"}];exports.registries=p;

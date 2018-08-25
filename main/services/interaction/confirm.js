@@ -1,0 +1,1 @@
+const{dialog:e}=require("electron");module.exports=(({title:o,message:t,buttons:s,type:n},i,l)=>{let u=windows&&windows.home;e.showMessageBox(u||void 0,{type:n||"info",buttons:s||["\u786e\u5b9a","\u53d6\u6d88"],title:o,message:t},e=>{0==e?"function"==typeof i&&i():"function"==typeof l&&l()})});

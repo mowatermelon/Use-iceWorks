@@ -1,1 +1,1 @@
-const{getEnv:e}=require("../env"),r=require("../logger"),{exec:n}=require("child_process");module.exports=function(){n("node --version",{env:e()},(e,n,o)=>{r.debug("node version:",n+o)})};
+const{getEnv:e}=require("../env"),n=require("../logger"),{exec:r}=require("child_process");module.exports=function(){r("node --version",{env:e()},(e,r,o)=>{n.debug("node version:",r+o)}),r("npm --version",{env:e()},(e,r,o)=>{n.debug("npm version:",r+o)})};

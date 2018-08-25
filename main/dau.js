@@ -1,1 +1,1 @@
-const{statStorage:e}=require("./services/storage"),r=require("./logger");module.exports={record:function(){const t=(new Date).toDateString();e.get()!==t&&(r.debug("dav record"),e.set(t),r.report("app",{action:"dau"}))}};
+const{statStorage:e}=require("./services/storage"),r=require("./logger"),t=require("./services/settings");module.exports={record:function(){const o=t.get("isAlibaba"),a=(new Date).toDateString();e.get()!==a&&(r.debug("dav record"),e.set(a),r.report("app",{action:"dau",group:o?"alibaba":"outer"}))}};
