@@ -49,22 +49,20 @@ npm run package:mac
 
 n.loadURL(i('index'))
 
-// change to 
+// change to
 
 n.loadURL(path.resolve('renderer/index.html'))
 
 
 
-t.loadURL(i('updater'))
+t.loadURL(r("updater"))
 
-// change to 
+// change to
 
 t.loadURL(path.resolve('renderer/updater.html'))
 
 
-
-
-t.loadURL(i('about'))
+t.loadURL(r("about"))
 
 // change to 
 
